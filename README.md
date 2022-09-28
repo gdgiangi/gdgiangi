@@ -1,4 +1,8 @@
-### Hi there 👋
+## Hey, my name is Gabriel,
+### 🔭 I’m currently working on API and data intensive software for the transportation industry.
+### 🌱 I’m currently learning new and more powerful machine learning algorithms and models.
+### 👯 I’m looking to collaborate on AI driven solutions, more specifically, natural language processing based systems.
+### 📫 How to reach me: gabriel.giangi17@alumni.loyola.ca
 
 <!--
 **gdgiangi/gdgiangi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
