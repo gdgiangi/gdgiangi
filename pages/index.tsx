@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Header from "../components/Header";
