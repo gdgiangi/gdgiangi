@@ -20,6 +20,9 @@ function Skill({ directionLeft }: Props) {
         transition={{
           duration: 1,
         }}
+        viewport={{
+          once: true,
+        }}
         src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
         alt=""
         className="rounded-full border border-gray-500 object cover w-24 h-24 md:h-28 md:w-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"

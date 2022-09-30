@@ -10,11 +10,14 @@ function Skills({}: Props) {
       initial={{
         opacity: 0,
       }}
+      transition={{
+        duration: 0.5,
+      }}
       whileInView={{
         opacity: 1,
       }}
-      transition={{
-        duration: 1.5,
+      viewport={{
+        once: true,
       }}
       className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-20 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
     >
