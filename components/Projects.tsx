@@ -1,10 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Project } from "../typings";
+import { urlFor } from "../sanity";
 
-type Props = {};
+type Props = {
+  projects: Project[];
+};
 
-function Projects({}: Props) {
-  const projects = [1, 2, 3, 4, 5];
+function Projects({ projects }: Props) {
   return (
     <motion.div
       initial={{
@@ -40,7 +43,7 @@ function Projects({}: Props) {
               viewport={{
                 once: true,
               }}
-              src="https://mlltli0lxx7t.i.optimole.com/OGdX48I.-dgO~1c73f:avif/https://avreafoster.com/wp-content/uploads/2020/10/Multi-Devices-Mockup-min.png"
+              src={urlFor(project?.image).url()}
               alt=""
             />
 
@@ -49,15 +52,21 @@ function Projects({}: Props) {
                 <span className="underline decoration decoration-[#bd86ff]/50">
                   Case Study {i + 1} of {projects.length}:
                 </span>{" "}
-                Test
+                {project?.title}
               </h4>
 
+              <div className="flex items-center space-x-2 justify-center">
+                {project?.technologies.map((technology) => (
+                  <img
+                    className="h-10 w-10"
+                    key={technology._id}
+                    src={urlFor(technology.image).url()}
+                  />
+                ))}
+              </div>
+
               <p className="text-lg text-center md:text-left">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                cursus mi nisi, nec viverra lacus ultricies sed. Sed a dignissim
-                odio. Nam molestie mauris et risus varius, ut posuere ligula
-                commodo. Interdum et malesuada fames ac ante ipsum primis in
-                faucibus.
+                {project?.summary}
               </p>
             </div>
           </div>
