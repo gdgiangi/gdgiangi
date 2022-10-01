@@ -76,5 +76,7 @@ export async function getStaticProps() {
       projects,
       socials,
     },
+
+    revalidate: 10,
   };
 }
