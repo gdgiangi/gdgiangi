@@ -1,6 +1,5 @@
 ## Hey, my name is Gabriel,
-### 🔭 I’m currently working on API and data intensive software for the transportation industry.
-### 🌱 I’m currently learning new and more powerful machine learning algorithms and models.
+### 🔭 I’m currently learning new applications of deep learning
 ### 👯 I’m looking to collaborate on AI driven solutions, more specifically, natural language processing based systems.
 ### 📫 How to reach me: gabegiangi@gmail.com
 
