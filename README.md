@@ -2,6 +2,7 @@
 ### 🔭 I’m currently learning AI, ML, DL and intelligent systems techniques
 ### 👯 I’m looking to collaborate on AI driven solutions.
 ### 📫 How to reach me: gabegiangi@gmail.com
+### Website: gabegiangi.com
 
 <!--
 **gdgiangi/gdgiangi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
